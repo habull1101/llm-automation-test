@@ -1,0 +1,13 @@
+name,number,expected
+Alice,0123456789,pass
+Alice,0,pass
+Do Van Ha,222222,pass
+      Do Van Ha,222222,pass
+Do Van Ha     ,222222,pass
+,333333,pass
+     ,333333,pass
+Do Van Ha,,pass
+,,false
+      ,,false
+,     ,false
+     ,      ,false

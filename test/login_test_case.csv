@@ -1,0 +1,18 @@
+username,password,expected
+nguyenvanA123,Password123,pass
+nguyen_vanA123,Password123,pass
+     nguyenvanA123 ,Password123,pass
+nguyenvanA123      ,Password123,pass
+nguyenvanA123,   Password123,fail
+nguyenvanA123,Password123   ,fail
+nguyenvanA123,,fail
+,password123,fail
+nguyenvanA123,Password456,fail
+a,123456,fail
+nguyenvanA123,1,fail
+nguyenvanA123nguyenvanA123nguyenvanA123nguyenvanA,Password123,fail
+!@#$%^&*(),Password123,fail
+' or '1'='1,123456,fail
+
+
+
